@@ -6,7 +6,6 @@ npm-debug.log*
 # Compiled files
 build
 build-ide
-h5p
 coverage
 typedoc
 
@@ -27,3 +26,4 @@ google_translate.json
 .json-autotranslate-cache
 
 .dccache
+.idea
