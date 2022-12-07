@@ -5,7 +5,7 @@
     "description": "",
     "main": "src/index.ts",
     "scripts": {
-        "build": "npx tsc -P ./tsconfig.build.json && cp -r h5p ./build/ && cp config.json build",
+        "build": "npx tsc -P ./tsconfig.build.json && cp -r h5p ./build/ && cp config.json build && cp -r lib build/h5p/libraries",
         "clean": "rm -rf h5p && rm -rf build && rm -rf coverage && rm -rf node_modules",
         "prepare": "sh download-core.sh c79f97a16fd8c6fc0232c10d5bed5b94502ee9e9 c886fa6ded498bbe0148e9484f9b1534facc264e",
         "start:watch": "npx ts-node-dev --deps --respawn src/index.ts",
