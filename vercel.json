@@ -1,10 +1,11 @@
 {
   "version": 2,
   "name": "h5p-demo-server",
+  "outputDirectory": "build",
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/index.ts"
+      "dest": "./build/index.js"
     }
   ]
 }
