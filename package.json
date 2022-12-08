@@ -10,7 +10,7 @@
         "prepare": "sh download-core.sh c79f97a16fd8c6fc0232c10d5bed5b94502ee9e9 c886fa6ded498bbe0148e9484f9b1534facc264e",
         "start:watch": "npx ts-node-dev --deps --respawn src/index.ts",
         "start": "node ./build/index.js",
-        "start:dev": "cp lib h5p/libraries && npx ts-node -P ./tsconfig.build.json src/index.ts",
+        "start:dev": "cp -r lib h5p/libraries && npx ts-node -P ./tsconfig.build.json src/index.ts",
         "start:shared-state:watch": "npx ts-node-dev --deps --respawn src/indexSharedState.ts",
         "start:shared-state": "npx ts-node -P ./tsconfig.build.json src/indexSharedState.ts"
     },
