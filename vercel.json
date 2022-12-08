@@ -1,7 +1,6 @@
 {
   "version": 2,
   "name": "h5p-demo-server",
-  "outputDirectory": "build",
   "routes": [
     {
       "src": "/(.*)",
