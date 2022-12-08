@@ -1,6 +1,4 @@
 
-Z
-*lib/H5P.InteractiveVideo-1.24/library.json,1/1/11460597ee577ec50b1c5f6669b04a791db53b74
 _
 /lib/H5P.InteractiveVideo-1.24/package-lock.json,2/e/2e436f44482f66c39bb4afe2f05aae9efc99380a
 \
