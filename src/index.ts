@@ -79,7 +79,7 @@ const addCsrfTokenToUser = (req, res, next): void => {
     next();
 };
 
-export default (async () => {
+export const start = async (): Promise<void> => {
     const useTempUploads = process.env.TEMP_UPLOADS === 'true';
     if (useTempUploads) {
         tmpDir = await dir({ keep: false, unsafeCleanup: true });
@@ -360,11 +360,10 @@ export default (async () => {
     displayIps(port);
 
     server.listen(port);
-    return server
-})();
+};
 
 // We can't use await outside a an async function, so we use the start()
 // function as a workaround.
 
-// start();
+start();
 
