@@ -3,14 +3,14 @@
   "name": "h5p-demo-server",
   "builds": [
     {
-      "src": "src/index.ts",
+      "src": "build/index.js",
       "use": "@now/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "src/index.ts"
+      "dest": "build/index.js"
     }
   ]
 }
