@@ -1,6 +1,12 @@
 {
   "version": 2,
   "name": "h5p-demo-server",
+  "builds": [
+    {
+      "src": "src/index.ts",
+      "use": "@now/node"
+    }
+  ],
   "routes": [
     {
       "src": "/(.*)",
