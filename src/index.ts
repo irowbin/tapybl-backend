@@ -366,4 +366,3 @@ export const start = async (): Promise<void> => {
 // function as a workaround.
 
 start();
-
